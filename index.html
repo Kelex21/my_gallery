@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,9 +9,46 @@
     <link rel="stylesheet" href="css/style.css">
     <title>My Gallery</title>
 </head>
+
 <body>
     <div class="container">
-        
+
+        <header>
+            <div class="box-top">
+                <img src="assets/images/profilePhoto.png" alt="Image">
+                <h3 class="name">Rodney Cotton</h3>
+                <p class="country">Helsinki, Finland</p>
+            </div>
+            <div class="box-bottom">
+                <div class="box">
+                    <p class="number" id="posts"></p>
+                    <div class="title">Posts</div>
+                </div>
+                <div class="box">
+                    <p class="number" id ="follower"></p>
+                    <div class="title">Follower</div>
+                </div>
+                <div class="box">
+                    <p class="number" id="following"></p>
+                    <div class="title">Following</div>
+                </div>
+            </div>
+        </header>
+
+        <section class="gallery">
+            <img src="assets/images/photo1.png" class="image1 image" alt="Image 1">
+            <img src="assets/images/photo2.png" class="image2 image" alt="Image 2">
+            <img src="assets/images/photo3.png" class="image3 image" alt="Image 3">
+            <img src="assets/images/photo6.png" class="image4 image" alt="Image 4">
+            <img src="assets/images/photo5.png" class="image5 image" alt="Image 5">
+            <img src="assets/images/photo4.png" class="image6 image" alt="Image 6">
+        </section>
+
+        <footer>
+            <p>Keiler Guardo <a href="https://devchallenges.io/challenges">@DevChallenges.io</a></p>
+        </footer>
     </div>
+    <script src="js/app.js"></script>
 </body>
+
 </html>

@@ -38,6 +38,8 @@
 
 - HTML
 - CSS
+  - FLEXBOX
+  - GRID
 - SCSS
 
 ## Features

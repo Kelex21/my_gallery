@@ -1,0 +1,97 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+header {
+  margin-top: 5rem;
+  width: 100%;
+}
+header .box-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header .box-top img {
+  width: 156px;
+  height: 156px;
+  border-radius: 60px;
+}
+header .box-top .name {
+  font-size: 24px;
+  color: #4e5150;
+}
+header .box-top .country {
+  margin-top: -1rem;
+  font-size: 14px;
+  color: #a9a9a9;
+}
+header .box-bottom {
+  display: flex;
+  justify-content: center;
+}
+header .box-bottom .box {
+  width: 100px;
+  height: 67px;
+  background-color: #e5e5e5;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 10px;
+}
+header .box-bottom .box .number {
+  font-size: 18px;
+  color: #4e5150;
+  margin-bottom: -0.1rem;
+}
+header .box-bottom .box .title {
+  font-size: 14px;
+  color: #4e5150;
+}
+
+.gallery {
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(3, 25%);
+  grid-auto-rows: minmax(auto);
+}
+.gallery .image {
+  border-radius: 20px;
+  width: 299px;
+  height: 299px;
+  filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.15));
+}
+.gallery .image2 {
+  width: 629px;
+}
+.gallery .image3 {
+  width: 627px;
+}
+.gallery .image6 {
+  width: 297px;
+  height: 630px;
+}
+
+/*# sourceMappingURL=style.css.map */
