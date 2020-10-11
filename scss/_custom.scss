@@ -74,28 +74,59 @@ header {
 .gallery {
     margin-top: 3rem;
     display: grid;
-    grid-template-columns: repeat(3, 25%);
-    grid-auto-rows: minmax(auto);
+    grid-row-gap: 1rem;
+    grid-template-columns: repeat(3, 20rem);
+    grid-template-rows: repeat(auto-fit, repeat(3, 1fr));
+    justify-content: center;
     .image {
         border-radius: 20px;
         width: 299px;
         height: 299px;
         filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.15));
+        animation: moveUp 2s forwards alternate;
     }
     .image1 {
+        grid-row: 1;
+        grid-column: 1;
     }
     .image2 {
-        width: 629px;
+        width: 612px;
+        grid-column: 2;
+        grid-row: 1;
     }
     .image3 {
+        grid-row: 2;
+        grid-column: 1 / 2;
         width: 627px;
     }
     .image4 {
+        grid-row: 3;
+        grid-column: 1;
     }
     .image5 {
+        grid-row: 3;
+        grid-column: 2;
     }
     .image6 {
+        grid-row: 2 / 4;
+        grid-column: 3;
         width: 297px;
         height: 630px;
+    }
+}
+
+footer {
+    margin-top: 5rem;
+    text-align: center;
+    p {
+        font-size: 14px;
+        color: $subtitle;
+        a {
+            color: $special_color;
+            text-decoration: none;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
     }
 }
