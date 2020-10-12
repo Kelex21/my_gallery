@@ -6,11 +6,11 @@
 
 <div align="center">
   <h3>
-    <a href="">
+    <a href="https://kelex21.github.io/my_gallery/">
       Demo
     </a>
     <span> | </span>
-    <a href="">
+    <a href="https://devchallenges.io/solutions/zbNmB4LJuzSgDH0RVDYv">
       Solution
     </a>
     <span> | </span>
@@ -24,22 +24,22 @@
 ## Table of Contents
 
 - [Overview](#overview)
-  - [Built With](#built-with)
+- [Built With](#built-with)
 - [Features](#features)
 - [Contact](#contact)
 
 
 ## Overview
 
-<img src="assets/screenshot/screenshot_desktop.png" />
+<img src="assets/screenshot/screenshot.png" />
 
 
 ### Built With
 
 - HTML
 - CSS
-  - FLEXBOX
-  - GRID
+  * FLEXBOX
+  * GRID
 - SCSS
 
 ## Features
