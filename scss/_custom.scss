@@ -72,10 +72,12 @@ header {
 }
 
 .gallery {
+    width: 100%;
     margin-top: 3rem;
     display: grid;
-    grid-row-gap: 1rem;
-    grid-template-columns: repeat(3, 20rem);
+    row-gap: 1rem;
+    column-gap: 1.8rem;
+    grid-template-columns: repeat(3, 18.8rem);
     grid-template-rows: repeat(auto-fit, repeat(3, 1fr));
     justify-content: center;
     .image {
@@ -90,7 +92,7 @@ header {
         grid-column: 1;
     }
     .image2 {
-        width: 612px;
+        width: 629px;
         grid-column: 2;
         grid-row: 1;
     }
@@ -127,6 +129,57 @@ footer {
             &:hover {
                 text-decoration: underline;
             }
+        }
+    }
+}
+
+@media (max-width: $mobile) {
+    header {
+        margin-top: 2.5rem;
+        .box-top {
+            img {
+                width: 101px;
+                height: 101px;
+            }
+            .name {
+                font-size: 14px;
+            }
+            .country {
+                margin-top: -0.5rem;
+                font-size: 10px;
+            }
+        }
+        .box-bottom {
+            .box {
+                width: 78px;
+                height: 52px;
+                .number {
+                    font-size: 12px;
+                }
+                .title {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+    .gallery {
+        grid-template-columns: repeat(3, 6.6rem);
+        column-gap: 0.8rem;
+        row-gap: 0.7rem;
+        margin-top: 2rem;
+        .image {
+            width: 109px;
+            height: 109px;
+        }
+        .image2 {
+            width: 229px;
+        }
+        .image3 {
+            width: 229px;
+        }
+        .image6 {
+            width: 108px;
+            height: 245px;
         }
     }
 }
