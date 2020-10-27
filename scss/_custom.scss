@@ -85,7 +85,7 @@ header {
         width: 299px;
         height: 299px;
         filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.15));
-        animation: moveUp 2s forwards alternate;
+        animation: moveUp 0.5s forwards alternate;
     }
     .image1 {
         grid-row: 1;
@@ -113,7 +113,7 @@ header {
         grid-row: 2 / 4;
         grid-column: 3;
         width: 297px;
-        height: 630px;
+        height: 610px;
     }
 }
 
